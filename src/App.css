@@ -4,14 +4,15 @@
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow:#ffa400;
+  --slightGreen: 	#208000;
 }
 body {
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Spectral', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 .text-title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Saira Stencil One', cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -20,4 +21,10 @@ body {
 }
 .text-bright {
   color: var(--lightBlue);
+}
+.text-dark {
+  color: var(--mainDark);
+}
+.text-slightGreen {
+  color: var(--slightGreen);
 }
