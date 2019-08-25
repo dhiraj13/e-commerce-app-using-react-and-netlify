@@ -5,6 +5,7 @@
   --mainDark:#232528;
   --mainYellow:#ffa400;
   --slightGreen: 	#208000;
+  --darkRed: #211514;
 }
 body {
   font-family: 'Lexend Deca', sans-serif !important;
@@ -49,4 +50,10 @@ body {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+.text-error {
+  color: var(--darkRed);
+  font-family: 'Love Ya Like A Sister', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
